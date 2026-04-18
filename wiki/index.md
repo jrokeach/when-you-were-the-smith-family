@@ -16,16 +16,10 @@ Entry point for this knowledge base. If you're coming here for the first time, r
 _The agent populates this section when you add children during bootstrap. Each entry links to that child's `profile.md` and summarizes their top-level categories._
 
 <!-- children-index-begin -->
-
-Example (remove when real entries are added):
-
-```
-- **Ava** — born YYYY-MM-DD — [profile](children/ava/profile.md)
-- **Noah** — born YYYY-MM-DD — [profile](children/noah/profile.md)
-```
-
-For an instantiated example of what a per-child directory looks like, see [the _template/ reference](children/_template/profile.md).
-
+- **Leo** — born 2012-03-15 — [profile](children/leo/profile.md)
+- **Maya** — born 2016-06-22 — [profile](children/maya/profile.md)
+- **Theo** — born 2020-01-08 — [profile](children/theo/profile.md)
+- **Rosie** — born 2024-04-12 — [profile](children/rosie/profile.md)
 <!-- children-index-end -->
 
 ### Finding everything about one child
@@ -60,7 +54,7 @@ Content that belongs to the whole family or to relationships between kids rather
 
 ## Per-child categories
 
-Each child's directory (`children/<slug>/`) contains these subdirectories. See [the template](children/_template/profile.md) for the canonical shape of each page type.
+Each child's directory (`children/<slug>/`) contains these subdirectories.
 
 **Emotional-texture categories:**
 

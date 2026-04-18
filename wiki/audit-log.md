@@ -34,6 +34,40 @@ Findings from lint runs. The lint skill (`/lint`) appends here. See `.claude/ski
 
 <!-- audit-entries-begin -->
 
-_No audits yet. Run `/lint` (or wait for the 30-day nudge) to populate._
+## Audit — 2026-04-18
+
+- **Critical** (0): None
+- **High** (0): None  
+- **Medium** (7): 
+  - 3 orphan pages (content added but not yet cross-linked)
+  - 4 reciprocal link gaps
+- **Low** (3):
+  - 3 reference links left in README files to deleted _examples/ content
+
+### Findings
+
+#### Medium: Reciprocal link gaps
+- `children/leo/profile.md` missing shared experiences links → FIXED (added)
+- `children/maya/profile.md` - needs links to family events
+- `children/theo/profile.md` - needs links to family events
+- `children/rosie/profile.md` - needs links to family events
+
+#### Medium: Orphan pages
+- `wiki/family/sibling-dynamics/2024-maya-leo.md` — not linked from any profile
+- `wiki/family/shared-firsts/first-camping.md` — not linked from any profile
+- `wiki/family/shared-memories/2024-powell-books.md` — not linked from any profile
+
+#### Low: Stale references
+- `wiki/family/caregivers/README.md` - references deleted `_examples/`
+- `wiki/family/traditions/README.md` - references deleted `_examples/`
+- `wiki/family/pets/README.md` - references deleted `_examples/`
+
+### Proposed fixes
+
+1. **Add reciprocal links to Maya, Theo, Rosie profiles** — link to shared family events
+2. **Add orphan pages to profiles** — add links from each child profile to their shared experiences
+3. **Clean up stale references** — remove _examples/ links
+
+_Approvals needed for content-level fixes. I can auto-fix #3 now._
 
 <!-- audit-entries-end -->

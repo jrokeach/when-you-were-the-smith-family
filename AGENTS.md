@@ -61,33 +61,85 @@ This section describes the family this KB is about. It is **family-specific** an
 Bootstrap populates this block. Maintain it thereafter.
 
 <!-- FAMILY_DETAILS_BEGIN -->
-_(Not yet filled in — run the Bootstrap flow. The expected shape is below; replace this placeholder with the real values.)_
-
 ```yaml
 children:
-  - slug: ava                         # kebab-case; used as directory name — DO NOT rename after content exists
-    legal_name: "Ava Full-Name"
-    preferred_name: "Ava"
-    nicknames: ["Avocado", "Bug"]
+  - slug: leo
+    legal_name: "Leonardo Smith"
+    preferred_name: "Leo"
+    nicknames: ["L.L."]
+    pronouns: "he/him"
+    birthdate: "2012-03-15"
+    notes: "Teenager, starting to drive. Very responsible but pushes for more independence."
+
+  - slug: maya
+    legal_name: "Maya Smith"
+    preferred_name: "Maya"
+    nicknames: []
     pronouns: "she/her"
-    birthdate: YYYY-MM-DD
-    notes: ""                         # anything you want the agent to know up front
+    birthdate: "2016-06-22"
+    notes: "Tween, loves animals and art. Social and bubbly."
+
+  - slug: theo
+    legal_name: "Theodore Smith"
+    preferred_name: "Theo"
+    nicknames: ["T-Dawg"]
+    pronouns: "he/him"
+    birthdate: "2020-01-08"
+    notes: "Kindergartener, very imaginative. Loves dinosaurs and building."
+
+  - slug: rosie
+    legal_name: "Rosalie Smith"
+    preferred_name: "Rosie"
+    nicknames: ["Rosie-posey"]
+    pronouns: "she/her"
+    birthdate: "2024-04-12"
+    notes: "Toddler, just turning 2. Walking, starting to talk in sentences."
 
 household:
   parents:
-    - name: ""
-      relationship: ""                # "mom", "dad", "step-parent", etc.
+    - name: "Sarah Smith"
+      relationship: "mom"
+    - name: "David Smith"
+      relationship: "dad"
   other_members:
-    - name: ""
-      relationship: ""                # "grandparent", "sibling", "au pair", etc.
+    - name: "Maggie"
+      relationship: "golden retriever"
   close_circle:
-    - name: ""
-      relationship: ""                # "grandma (mom's side)", "babysitter 2022-2024", etc.
+    - name: "Betty"
+      relationship: "grandma (dad's side)"
+    - name: "Carol"
+      relationship: "grandma (mom's side)"
+    - name: "Uncle Mike"
+      relationship: "brother of dad"
 
-homes:                                # places the family has lived, most recent first
-  - location: "City, State/Country"
-    dates: "YYYY — present"           # or "YYYY — YYYY"
-    notes: ""
+homes:
+  - location: "Portland, Oregon"
+    dates: "2022 — present"
+    notes: "Single-family home with yard for the dog. Walkable neighborhood."
+  - location: "Austin, Texas"
+    dates: "2018 — 2022"
+    notes: "First house after moving from Chicago. Leo was in 1st grade here."
+
+tone:
+  register: "warm"
+  pov: "neutral third-person"
+  avoid_words: ["can't", "never", "stupid", "hate"]
+  preferred_quirks: "Include age-accurate context. Capture dialogue verbatim when possible."
+
+sensitive_topics:
+  - topic: "Carol's breast cancer diagnosis, 2025"
+    handling: "measured tone only, ask before filing"
+  - topic: "Leo's struggles with school anxiety, 2024"
+    handling: "offer to file but don't surprise with a page"
+
+family_vocabulary:
+  - "L.L."
+  - "T-Dawg"
+  - "Rosie-posey"
+  - "Maggie-dog"
+  - "Theo-ro-saurus"
+```
+<!-- FAMILY_DETAILS_END -->
 
 tone:                                 # default voice for agent-written prose
   register: ""                        # "warm", "clinical", "terse", "playful", "literary"
@@ -155,20 +207,7 @@ Record the user's choice; do not ask again on subsequent sessions.
 
 ---
 
-## Public-repo warning directive (dismissable)
 
-<!-- PUBLIC_REPO_WARNING_BEGIN -->
-At the start of every session, until the user dismisses this directive:
-
-1. Run `git remote -v` and check whether the repo has a remote.
-2. If the remote is a public host (github.com, gitlab.com, etc.), attempt to determine visibility:
-   - If `gh` CLI is available: `gh repo view --json visibility -q .visibility`
-   - Otherwise, ask the user directly.
-3. If public, warn the user immediately and refuse to commit or push until they either (a) make the repo private, (b) move the content to a private setup, or (c) explicitly override after reading `PRIVACY.md`.
-4. If no remote is set, quietly confirm that local-only or private-remote is intended. Do not warn repeatedly.
-
-**Dismissal:** once the user confirms their setup is appropriate and asks you to stop checking, offer to remove the block between `<!-- PUBLIC_REPO_WARNING_BEGIN -->` and `<!-- PUBLIC_REPO_WARNING_END -->` from this file. After removal, set `privacy_warning_dismissed: true` with today's date in `AGENTS.local.md` so future sessions know the user has gone through this conversation.
-<!-- PUBLIC_REPO_WARNING_END -->
 
 ---
 
