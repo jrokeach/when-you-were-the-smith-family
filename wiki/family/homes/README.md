@@ -16,4 +16,6 @@ Places the family has lived. One page per home, most recent first. Pages include
 
 ## Pages
 
-_None yet. This template ships empty._
+- [Index](./index.md) — category index of all home pages
+- [2018 Austin](./2018-austin.md)
+- [2022 Portland](./2022-portland.md)
