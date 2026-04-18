@@ -44,3 +44,4 @@ Sarah, less enthused: "Let's not get ahead of ourselves."
 
 - Leo Smith
 - Sarah Smith
+![Leo Permit](../../../images/leo-permit.svg)

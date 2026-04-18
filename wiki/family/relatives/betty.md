@@ -44,3 +44,4 @@ She'd like to see the kids more often, but her arthritis makes travel harder.
 ## Sources
 
 - Sarah Smith
+![Betty](../../../images/betty.svg)

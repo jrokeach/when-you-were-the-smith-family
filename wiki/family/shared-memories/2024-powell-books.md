@@ -44,3 +44,4 @@ They went to a pizza place afterward and declared it "the best family day ever."
 ## Sources
 
 - Family conversation, March 2026
+![Powell's Books Day](../../../images/powells-books.svg)

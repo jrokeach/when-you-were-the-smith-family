@@ -41,3 +41,4 @@ The house was small for a growing family and no longer had room for a home offic
 ## Sources
 
 - Family conversation, March 2026
+![Austin Home](../../../images/austin-home.svg)

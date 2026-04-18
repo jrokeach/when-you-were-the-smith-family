@@ -44,3 +44,4 @@ The house had a big backyard, which thrilled Theo. Maya missed her friends but q
 ## Sources
 
 - Family conversation, March 2026
+![Portland Home](../../../images/portland-home.svg)

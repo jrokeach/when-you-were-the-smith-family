@@ -42,4 +42,5 @@ Carol is back to her old self, though she has less energy than before. She visit
 ## Sources
 
 - Sarah Smith
+![Carol](../../../images/carol.svg)
 - Maya Smith

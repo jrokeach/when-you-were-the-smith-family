@@ -50,4 +50,5 @@ Mike took two months off work to help Carol during her cancer treatment in 2025.
 ## Sources
 
 - Sarah Smith
+![Uncle Mike](../../../images/mike.svg)
 - Leo Smith

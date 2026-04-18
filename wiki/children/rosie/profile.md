@@ -40,7 +40,10 @@ _Update periodically with recent entries._
 
 _Moments involving other family members. Update when linking from sibling pages._
 
+- ![Rosie Photo](../../../images/rosie.svg)
 <!-- shared-experiences-begin -->
+- [Rosie joins the family (2024)](../../family/shared-milestones/2024-rosie-born.md) — family milestone
+ 
 - [Rosie joins the family (2024)](../family/shared-milestones/2024-rosie-born.md) — when Rosie was born
 - [Oregon coast trip (2024)](../family/trips/2024-oregon-coast.md) — family vacation
 - [Move to Portland (2022)](../family/homes/2022-portland.md) — family move

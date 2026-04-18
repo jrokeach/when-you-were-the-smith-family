@@ -51,3 +51,4 @@ She's scared of thunder and hides in the bathroom during storms. She loves swimm
 ## Sources
 
 - Family observation
+![Maggie](../../../images/maggie.svg)

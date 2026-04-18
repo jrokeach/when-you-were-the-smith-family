@@ -49,3 +49,4 @@ The whole family: Sarah, David, Leo, Maya, Theo, Rosie, and Maggie (the dog).
 ## Sources
 
 - Family conversation, March 2026
+![Oregon Coast](../../../images/oregon-coast.svg)

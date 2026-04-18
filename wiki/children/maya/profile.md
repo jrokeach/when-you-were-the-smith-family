@@ -52,6 +52,11 @@ _Update periodically with recent entries._
 _Moments involving other family members. Update when linking from sibling pages._
 
 <!-- shared-experiences-begin -->
+- ![Maya Photo](../../../images/maya.svg)
+- [Powell's Books Day](../../family/shared-memories/2024-powell-books.md) — family outing
+- [Maya favorite series](../../children/maya/interests/favorite-series.md) — personal interest
+- [Rosie joins the family (2024)](../../family/shared-milestones/2024-rosie-born.md) — family milestone
+- [Maya photo](../../../images/maya.svg) 
 - [Rosie joins the family (2024)](../family/shared-milestones/2024-rosie-born.md) — when Rosie was born
 - [Move to Portland (2022)](../family/homes/2022-portland.md) — family move
 - [Oregon coast trip (2024)](../family/trips/2024-oregon-coast.md) — family vacation

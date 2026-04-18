@@ -42,3 +42,4 @@ He still loves biking — it's become a family activity.
 
 - Leo Smith
 - Sarah Smith
+![Leo on Bike](../../../images/leo-bike.svg)
